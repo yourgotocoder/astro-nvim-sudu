@@ -12,5 +12,8 @@ return {
   {
     "iamcco/markdown-preview.nvim",
     config = function() vim.fn["mkdp#util#install"]() end,
+    keys = {
+      { "<leader>md", "<cmd>MarkdownPreview<cr>", desc = "Open markdown preview" }
+    }
   }
 }
