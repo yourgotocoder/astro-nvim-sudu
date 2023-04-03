@@ -15,6 +15,10 @@ return {
     keys = {
       { "<leader>md", "<cmd>MarkdownPreview<cr>", desc = "Open markdown preview" }
     },
-    event = "User AstroFile"
+    cmd = "MarkdownLoad",
+    keys = {
+      { "<leader>ML", "<cmd>MarkdownLoad<cr>",    desc = "Load markdown-preview.nvim" },
+      { "<leader>MP", "<cmd>MarkdownPreview<cr>", desc = "Load the .md file in the browser" }
+    }
   },
 }
