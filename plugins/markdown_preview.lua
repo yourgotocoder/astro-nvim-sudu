@@ -12,13 +12,10 @@ return {
   {
     "iamcco/markdown-preview.nvim",
     config = function() vim.fn["mkdp#util#install"]() end,
-    keys = {
-      { "<leader>md", "<cmd>MarkdownPreview<cr>", desc = "Open markdown preview" }
-    },
     cmd = "MarkdownLoad",
+    event = "User AstroFile",
     keys = {
-      { "<leader>ML", "<cmd>MarkdownLoad<cr>",    desc = "Load markdown-preview.nvim" },
-      { "<leader>MP", "<cmd>MarkdownPreview<cr>", desc = "Load the .md file in the browser" }
+      { "<leader>mp", "<cmd>MarkdownPreview<cr>", desc = "Load the .md file in the browser" }
     }
   },
 }
