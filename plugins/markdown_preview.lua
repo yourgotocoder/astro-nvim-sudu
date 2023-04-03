@@ -14,15 +14,7 @@ return {
     config = function() vim.fn["mkdp#util#install"]() end,
     keys = {
       { "<leader>md", "<cmd>MarkdownPreview<cr>", desc = "Open markdown preview" }
-    }
+    },
+    event = "User AstroFile"
   },
-  {
-    "booperlv/nvim-gomove",
-    config = {
-      map_defaults = true,
-      reindent = true,
-      undojoin = true,
-      move_paste_end_col = false,
-    }
-  }
 }

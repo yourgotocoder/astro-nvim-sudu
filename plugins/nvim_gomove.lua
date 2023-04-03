@@ -7,5 +7,6 @@ return {
       undojoin = true,
       move_paste_end_col = false,
     },
+    event = "VeryLazy"
   },
 }
