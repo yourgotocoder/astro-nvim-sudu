@@ -1,6 +1,7 @@
 return {
   {
-    "neoclide/coc.nvim"
-
+    "neoclide/coc.nvim",
+    branch = "master",
+    run = "npm install"
   }
 }
