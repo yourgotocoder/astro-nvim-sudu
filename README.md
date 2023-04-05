@@ -6,3 +6,4 @@ Extra plugins included: markdown-preview.nvim
 
 Check https://github.com/iamcco/markdown-preview.nvim to see how to configure markdown-preview.nvim
 
+  
